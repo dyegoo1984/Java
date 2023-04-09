@@ -1,0 +1,15 @@
+	Food f1 = new Food("Market", "purchase of the month", 488.35);
+        Food f2 = new Food("Market", "Meat for Barbecue", 98.25);
+        Food f3 = new Food("Burguer King", "Lunch", 15.90);
+        Food f4 = new Food("Pizza Hut", "Friday Night Pizza", 25.90);
+        debit.InsertFood(f1);
+        debit.InsertFood(f2);
+        debit.InsertFood(f3);                
+        debit.InsertFood(f4);
+
+        Home Ho1 = new Home("Mortgage", "monthly payment", 550.00);
+        Home Ho2 = new Home("home insurance", "monthly payment", 95.00);
+        Home Ho3 = new Home("condominium fee", "monthly payment", 169.00);
+        debit.InsertHome(Ho1);
+        debit.InsertHome(Ho2);
+        debit.InsertHome(Ho3);
